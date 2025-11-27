@@ -1,0 +1,59 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a3aec6d6;
+}
+ul li {
+  float: right;
+}
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover {
+  background-color: #111111;
+}
+footer {text-align: center;
+padding: 14px 16px;
+}
+h1 {text-align: center;
+padding: 20px;}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.flex-item {
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+/* Make a one column-layout instead of three-column layout */
+@media (max-width: 600px) 
+  .flex-container {
+    flex-direction: column;
+  }
+   h1 {
+  border: solid black 4px;
+  width: 600px;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3 {
+  border: solid pink 4px;
+  max-width: 600px;
+  margin:auto;
+}
